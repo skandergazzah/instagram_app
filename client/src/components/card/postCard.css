@@ -1,0 +1,78 @@
+.card {
+    height: 340px;
+}
+
+.info {
+    display:flex;
+    align-items: center;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.userImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.postImg{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.interaction{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.cardIcon{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.commenticon{
+    width: 26px;  
+}
+
+.infoIcon{
+    position: absolute;
+    right:0px ;
+}
+
+.comments{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    position: relative;
+}
+.comment{
+    width: 42vh;
+    border: 2px solid #030303;
+    border-radius: 18px;
+}
+
+.okIcon{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.oldComment{
+color: #2c2a74;
+padding: 1px;
+font-weight: 900;
+font-size: 16px;
+margin: 3px 8px;
+}
+.oldComments{
+    display: flex;
+    flex-direction: column;
+
+}
